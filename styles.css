@@ -1,0 +1,427 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+#navbar{
+   display: flex;
+   align-items: center;
+   top: 0px;
+}
+
+#navbar::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  top:-500px;
+  left:0px;
+  height: 100%;
+  width:100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+#navbar ul{
+  display: flex;
+  font-family: 'Baloo Bhaina 2', cursive;
+  justify-content: left;
+}
+
+#navbar ul li{
+  list-style: none;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  padding: 3px 23px;
+  color: white;
+  display: block;
+  border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+  color: black;
+  background-color:white;
+}
+
+
+.logo{
+  height: 89px;
+}
+.logo img{
+    width: 90px;
+    height: 69px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('bg.jpeg') no-repeat center center/cover;
+    height: 577px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.8;
+}
+
+#home{
+text-align: center;
+height: 320px;
+}
+#WC{
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 85px;
+  font-family: 'Ramaraja', serif;
+  color: black;
+}
+#DD{
+  text-shadow: 2px 2px aqua;
+  height: 88px;
+  font-size: 4rem;
+  font-family: 'Fanwood Text', serif;
+  color: white;
+  
+}
+
+#slogan{
+  text-align: center;
+  font-size:10vh ;
+  word-spacing: 4rem;
+  color: #10ff00;
+  margin-top: 83px;
+  font-family: 'Tourney', cursive;
+}
+
+.aboutUs{
+    
+    word-spacing: 9px;  
+    border: 2px solid brown;
+    border-radius: 17px;
+    margin: 74px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-size: 25px;
+    padding: 34px;
+}
+
+#aboutUs::before{
+  content: "";
+  background: url('bgimg.jpg') no-repeat center center/cover;
+  z-index: -1;
+  height: 427px;
+  width: 85%;
+  position: absolute;
+  border-radius: 15px;
+  opacity: 0.4;
+}
+
+
+.aboutUs h1{
+  text-align: center;
+  font-size: 35px;
+  padding: 3px;
+  
+}
+
+.aboutUs #p1{
+  color: #b73131;
+}
+.aboutUs #p2{
+  color: #b73131;
+}
+
+.aboutUs #p3{
+  text-align: right;
+  color: #b73131;
+}
+
+/* product section */
+
+.products{
+  text-align: center;
+  margin: 0px;
+}
+
+.products h1{
+  text-align: center;
+  font-size: 2.1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.products h2{
+  font-family: 'Baloo Bhaina 2', cursive;
+  color: red;
+}
+
+.one{
+  margin-top: 50px;
+  font-size: 1.2rem;
+
+}
+
+.one .firstimg{
+  float: left;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.two{
+  margin-top: 90px;
+  font-size: 1.2rem;
+
+}
+
+.two .secondimg{
+  float:right;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.three{
+  margin-top: 100px;
+  font-size: 1.2rem;
+}
+
+.three .thirdimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.four{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+
+.four .fourthimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.five{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+
+.five .fifthimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.six{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.six .sixthimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.seven{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.seven .seventhimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.eight{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+
+.eight .eighthimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.nine{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.nine .ninethimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.ten{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+
+.ten .tenthimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.eleven{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.eleven .eleventhimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.twelve{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.twelve .twelvethimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.thirteen{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.thirteen .thirteenthimg{
+  float:left;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+.fourteen{
+  margin-top: 90px;
+  font-size: 1.2rem;
+}
+.fourteen .fourteenthimg{
+  float:right;
+  width: 264px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 130px;
+  margin: 3px;
+  shape-outside: ellipse();
+}
+
+/* background */
+
+.one ::before{
+  content: "";
+  background: url('images/3.jpg') no-repeat center left/cover;
+  z-index: -1;
+  height: 399px;
+  width: 59%;
+  position: absolute;
+  border-radius: 15px;
+  opacity: 0.4;
+}
+
+.six ::before{
+  content: "";
+  background: url('images/6.jpg') no-repeat center center/cover;
+  z-index: -1;
+  height: 399px;
+  width: 67%;
+  position: absolute;
+  border-radius: 15px;
+  opacity: 0.4;
+}
+
+.eleven ::before{
+  content: "";
+  background: url('images/5.jpg') no-repeat center center/cover;
+  z-index: -1;
+  height: 399px;
+  width: 72%;
+  position: absolute;
+  border-radius: 15px;
+  opacity: 0.4;
+}
+
+/* SERVICES */
+
+.services{
+  margin-top: 210px;
+}
+
+.services h1{
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.points{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.item{
+  width: 300px;
+  background-color: blanchedalmond;
+  margin: 10px;
+  border: 2px solid black;
+}
